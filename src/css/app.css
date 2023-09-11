@@ -1,0 +1,30 @@
+.square-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border: 2px solid #333; /* Add a 2px solid border with a dark gray color */
+  margin: 5px; /* Add 20px margin around the container */
+}
+
+.square-image-container-selected {
+  border-color: #ff9900; /* Change border color on hover to a different color */
+  border-width: 10px;
+}
+
+.square-image-container img {
+  width: 100%; /* Make the image fill the container */
+  height: auto; /* Maintain the image's aspect ratio */
+}
+
+.square-image-container:hover {
+  border-color: #ff9900; /* Change border color on hover to a different color */
+  cursor: pointer; /* Change cursor to hand pointer on hover */
+}
+
+.square-image-remove-button {
+  margin-bottom: -3.5rem;
+  margin-right: -4.5rem;
+}
